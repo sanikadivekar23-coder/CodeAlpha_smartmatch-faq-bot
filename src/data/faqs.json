@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "question": "How do I reset my smart light hub?",
+    "answer": "To reset your smart light hub, press and hold the physical reset button on the back for 10 seconds until the LED flashes red. This will restore all factory settings."
+  },
+  {
+    "id": "2",
+    "question": "Why is my security camera footage blurry?",
+    "answer": "Blurry footage is often caused by a dirty lens or high compression due to low bandwidth. Try cleaning the lens with a microfiber cloth and checking your internet signal strength."
+  },
+  {
+    "id": "3",
+    "question": "Can I connect multiple smartphones to the same device?",
+    "answer": "Yes, you can share access with up to 5 family members by inviting their email addresses in the 'Family Sharing' section of the app settings."
+  },
+  {
+    "id": "4",
+    "question": "How do I change my account password?",
+    "answer": "Navigate to Profile > Security > Change Password. You will need to enter your current password and verify your email to set a new one."
+  },
+  {
+    "id": "5",
+    "question": "What is the return policy for defective products?",
+    "answer": "We offer a 30-day money-back guarantee for all products. If your device is defective, we will send a free replacement within the first 12 months under our warranty program."
+  },
+  {
+    "id": "6",
+    "question": "Does the system work without an internet connection?",
+    "answer": "Basic functions like local schedules and light switches will continue to work, but remote access, voice commands, and cloud storage require an active internet connection."
+  },
+  {
+    "id": "7",
+    "question": "How can I reduce false motion alerts?",
+    "answer": "You can adjust 'Sensitivity Zones' in the camera settings to focus on specific areas and ignore movement from trees or passing cars."
+  },
+  {
+    "id": "8",
+    "question": "Is it compatible with Apple HomeKit?",
+    "answer": "Most of our Pro series devices are compatible with Apple HomeKit. Look for the HomeKit icon on the product box or check the specific model number on our compatibility page."
+  },
+  {
+    "id": "9",
+    "question": "How do I update the firmware on my devices?",
+    "answer": "Firmware updates are prompted automatically in the app when available. Ensure your device is plugged in and connected to Wi-Fi during the update process."
+  },
+  {
+    "id": "10",
+    "question": "What happens if there is a power outage?",
+    "answer": "Your devices will reconnect automatically once power is restored. Schedules stored locally on the hub will resume, but cloud-dependent tasks may experience a brief delay."
+  }
+]
