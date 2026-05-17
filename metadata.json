@@ -1,0 +1,6 @@
+{
+  "name": "SmartMatch FAQ Bot",
+  "description": "An AI-powered FAQ chatbot using NLP and similarity matching to provide accurate answers from a curated dataset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
