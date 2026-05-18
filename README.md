@@ -1,4 +1,6 @@
 Smartmatch FAQ Bot - Full Application Documentation
+
+
 This repository houses an intelligent, production-ready conversational support assistant developed as part of the Code Alpha Artificial Intelligence Internship Program. The application combines a modern user interface with a robust, cloud-to-local hybrid intelligence architecture to surface precise answers from a pre-configured database or general artificial intelligence pipelines.
 
 ⚙️ Core Architecture & End-to-End Data Flow
