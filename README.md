@@ -3,6 +3,7 @@ Smartmatch FAQ Bot - Full Application Documentation
 
 This repository houses an intelligent, production-ready conversational support assistant developed as part of the Code Alpha Artificial Intelligence Internship Program. The application combines a modern user interface with a robust, cloud-to-local hybrid intelligence architecture to surface precise answers from a pre-configured database or general artificial intelligence pipelines.
 
+
 ⚙️ Core Architecture & End-to-End Data Flow
 The application processes user queries through a multi-tiered validation pipeline designed to optimize performance, minimize latency, and guarantee fallback reliability:
 
@@ -20,6 +21,8 @@ Tokenization & Processing: The local route maps text patterns using the compromi
 Semantic Noise Filtering: The system passes tokens through a localized static hash set of standard English STOPWORDS to filter out non-informative elements (such as "the", "with", "for", and "and").
 Vector Geometry & Cosine Similarity Matrix: It generates structural keyword frequency maps for both the query and the target database entries. It then calculates a mathematical dot product divided by the product of their geometric vector magnitudes to generate a local similarity match percentage.
 UI Timeline Resolution: Once the answer and suggestions arrays are computed (via cloud or local fallbacks), the system appends the payload data to the message timeline array. The UI uses a document pointer reference to trigger an automatic scroll behavior, bringing the new elements directly into the reader's view.
+
+
 🛠️ Technical Stack Summary
 Front-End Architecture: React 19 (TypeScript) leveraging component state hooks for reactive layout orchestration.
 Build System & Environment Tooling: Vite v6 supplying optimal hot-module reloading and secured client-side environment wrapping.
@@ -27,6 +30,8 @@ Artificial Intelligence Core: Google Gen AI Native SDK interacting with the adva
 Natural Language Processing (NLP): Compromise NLP library for local text tokenization and linguistic phrase parsing.
 Styling Framework: Tailwind CSS v4 paired with Lucide React for modern, component-isolated visual design.
 Animation Core Engine: Motion Framework (Framer Motion v12) handling micro-interactions and asynchronous layout states.
+
+
 📂 Deep-Dive File & Codebase Explanation
 1. Intelligence Pipeline Core (src/lib/nlp.ts)
 This module houses the logical backbone of the assistant, managing text preprocessing and multi-layer fallback evaluation:
